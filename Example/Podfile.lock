@@ -1,0 +1,72 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - iOSSnapshotTestCase (6.2.0):
+    - iOSSnapshotTestCase/SwiftSupport (= 6.2.0)
+  - iOSSnapshotTestCase/Core (6.2.0)
+  - iOSSnapshotTestCase/SwiftSupport (6.2.0):
+    - iOSSnapshotTestCase/Core
+  - Nimble (8.0.9)
+  - Nimble-Snapshots (8.0.0):
+    - Nimble-Snapshots/Core (= 8.0.0)
+  - Nimble-Snapshots/Core (8.0.0):
+    - iOSSnapshotTestCase (~> 6.0)
+    - Nimble (~> 8.0)
+  - Quick (2.2.1)
+  - SDWebImage (5.10.0):
+    - SDWebImage/Core (= 5.10.0)
+  - SDWebImage/Core (5.10.0)
+  - SnapKit (5.0.1)
+  - YSToolsSwift (0.1.0):
+    - SDWebImage (~> 5.10.0)
+    - SnapKit (~> 5.0.1)
+    - YSToolsSwift/Create (= 0.1.0)
+    - YSToolsSwift/Extension (= 0.1.0)
+    - YSToolsSwift/Tools (= 0.1.0)
+  - YSToolsSwift/Create (0.1.0):
+    - SDWebImage (~> 5.10.0)
+    - SnapKit (~> 5.0.1)
+  - YSToolsSwift/Extension (0.1.0):
+    - SDWebImage (~> 5.10.0)
+    - SnapKit (~> 5.0.1)
+  - YSToolsSwift/Tools (0.1.0):
+    - SDWebImage (~> 5.10.0)
+    - SnapKit (~> 5.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase (~> 2.1.4)
+  - Nimble (~> 8.0.7)
+  - Nimble-Snapshots (~> 8.0.0)
+  - Quick (~> 2.2.0)
+  - YSToolsSwift (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - iOSSnapshotTestCase
+    - Nimble
+    - Nimble-Snapshots
+    - Quick
+    - SDWebImage
+    - SnapKit
+
+EXTERNAL SOURCES:
+  YSToolsSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  iOSSnapshotTestCase: 9ab44cb5aa62b84d31847f40680112e15ec579a6
+  Nimble: 98b888285a615fd34f20e61753cf58ea1402bde4
+  Nimble-Snapshots: 8ec63f41ce6c7229a17be9a64edbc123b181f75b
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+  SDWebImage: 9169792e9eec3e45bba2a0c02f74bf8bd922d1ee
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  YSToolsSwift: fe0719cdcc9f11b41ea3d3b9dbd165cded4de7a3
+
+PODFILE CHECKSUM: 4b1cf6f5b68574b41ecef278aaa48da51964f094
+
+COCOAPODS: 1.10.0

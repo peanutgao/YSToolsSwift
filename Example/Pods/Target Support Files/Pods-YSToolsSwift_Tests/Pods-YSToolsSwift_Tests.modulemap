@@ -1,0 +1,6 @@
+framework module Pods_YSToolsSwift_Tests {
+  umbrella header "Pods-YSToolsSwift_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

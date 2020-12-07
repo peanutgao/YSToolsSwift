@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import YSToolsSwift
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let imgV = UIImageView()
+            .ys_inView(view)
     }
 
     override func didReceiveMemoryWarning() {

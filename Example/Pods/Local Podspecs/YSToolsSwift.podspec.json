@@ -1,0 +1,44 @@
+{
+  "name": "YSToolsSwift",
+  "version": "0.1.0",
+  "summary": "项目工具类集合",
+  "description": "Common Dev Tools",
+  "homepage": "https://github.com/peanutgao/YSToolsSwift",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "peanutgao": "Joseph0750@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/peanutgao/YSToolsSwift.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YSToolsSwift/Classes/**/*",
+  "dependencies": {
+    "SnapKit": [
+      "~> 5.0.1"
+    ],
+    "SDWebImage": [
+      "~> 5.10.0"
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "Create",
+      "source_files": "YSToolsSwift/Classes/Create/*"
+    },
+    {
+      "name": "Extension",
+      "source_files": "YSToolsSwift/Classes/Extension/*"
+    },
+    {
+      "name": "Tools",
+      "source_files": "YSToolsSwift/Classes/Tools/*"
+    }
+  ]
+}
