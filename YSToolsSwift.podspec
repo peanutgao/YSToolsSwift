@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
   s.name             = 'YSToolsSwift'
   s.version          = '0.1.0'
   s.summary          = '项目工具类集合'
+  s.swift_version    = '5.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

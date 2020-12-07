@@ -2834,6 +2834,38 @@
 			};
 			name = Debug;
 		};
+		432967354436884139B4D2CEABA3DA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4448C1462686C02566E8FAA9C25CD7E9 /* YSToolsSwift.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSToolsSwift/YSToolsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSToolsSwift/YSToolsSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YSToolsSwift/YSToolsSwift.modulemap";
+				PRODUCT_MODULE_NAME = YSToolsSwift;
+				PRODUCT_NAME = YSToolsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		495981644E15FFD72C2D08F8AE350620 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6EF7DA881A3B5EF559BA36285600CAC3 /* Quick.release.xcconfig */;
@@ -2886,38 +2918,6 @@
 				MODULEMAP_FILE = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap";
 				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
 				PRODUCT_NAME = FBSnapshotTestCase;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6FB2474E58D2DAFB29DF7EC68B5F0083 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4448C1462686C02566E8FAA9C25CD7E9 /* YSToolsSwift.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YSToolsSwift/YSToolsSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YSToolsSwift/YSToolsSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YSToolsSwift/YSToolsSwift.modulemap";
-				PRODUCT_MODULE_NAME = YSToolsSwift;
-				PRODUCT_NAME = YSToolsSwift;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -3247,39 +3247,6 @@
 			};
 			name = Debug;
 		};
-		A1A481EEF2D2FCBFD77D2F6085F27E9B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAB688BB3D9BF1D7B3D998A7C3EB519A /* YSToolsSwift.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/YSToolsSwift/YSToolsSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YSToolsSwift/YSToolsSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YSToolsSwift/YSToolsSwift.modulemap";
-				PRODUCT_MODULE_NAME = YSToolsSwift;
-				PRODUCT_NAME = YSToolsSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		A28590E21EE15C3CC072A61187F5D586 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9B2BA11C6CDB576AC53A3AF577465ED3 /* SDWebImage.release.xcconfig */;
@@ -3407,6 +3374,39 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
+		};
+		BE06D645982BA9A5995321A02C1A5BE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAB688BB3D9BF1D7B3D998A7C3EB519A /* YSToolsSwift.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YSToolsSwift/YSToolsSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YSToolsSwift/YSToolsSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YSToolsSwift/YSToolsSwift.modulemap";
+				PRODUCT_MODULE_NAME = YSToolsSwift;
+				PRODUCT_NAME = YSToolsSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		D4205A4ADADF2F5456CB5CC65218B09E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3577,8 +3577,8 @@
 		BA9C0087C5AD83CAA0BDE8F8BFA6F3DA /* Build configuration list for PBXNativeTarget "YSToolsSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6FB2474E58D2DAFB29DF7EC68B5F0083 /* Debug */,
-				A1A481EEF2D2FCBFD77D2F6085F27E9B /* Release */,
+				432967354436884139B4D2CEABA3DA3E /* Debug */,
+				BE06D645982BA9A5995321A02C1A5BE4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

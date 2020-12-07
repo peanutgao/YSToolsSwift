@@ -16,7 +16,7 @@ class FPSMonitor {
     public func start() {
         if let app = UIApplication.shared.delegate, let window = app.window {
             window?.addSubview(fpsLabel)
-            window?.bringSubview(toFront: fpsLabel)
+            window?.bringSubviewToFront(fpsLabel)
             fpsLabel.start()
         }
     }
@@ -53,7 +53,7 @@ class FPSLabel: UILabel {
         
         displayLink = CADisplayLink(target: self, selector: #selector(step(displayLink:)))
         displayLink.isPaused = true
-        displayLink.add(to: .main, forMode: RunLoop.Mode.commonModes)
+        displayLink.add(to: .main, forMode: RunLoop.Mode.common)
         
         pan = UIPanGestureRecognizer(target: self, action: #selector(pan(sender:)))
         self.addGestureRecognizer(pan!)
@@ -64,7 +64,7 @@ class FPSLabel: UILabel {
     }
     
     deinit {
-        displayLink.remove(from: .main, forMode: RunLoop.Mode.commonModes)
+        displayLink.remove(from: .main, forMode: RunLoop.Mode.common)
     }
     
     fileprivate func start() {

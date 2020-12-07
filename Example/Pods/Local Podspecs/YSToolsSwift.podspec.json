@@ -2,6 +2,7 @@
   "name": "YSToolsSwift",
   "version": "0.1.0",
   "summary": "项目工具类集合",
+  "swift_versions": "5.0",
   "description": "Common Dev Tools",
   "homepage": "https://github.com/peanutgao/YSToolsSwift",
   "license": {
@@ -40,5 +41,6 @@
       "name": "Tools",
       "source_files": "YSToolsSwift/Classes/Tools/*"
     }
-  ]
+  ],
+  "swift_version": "5.0"
 }
